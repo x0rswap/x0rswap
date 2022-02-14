@@ -1,0 +1,5 @@
+- 👋 Hi, I’m @x0rswap
+- 👀 I’m interested in solidity
+- 🌱 I’m currently learning solidity
+- 💞️ I’m looking to collaborate on solidity
+- 📫 Ping me on twitter: https://twitter.com/xor_swap
