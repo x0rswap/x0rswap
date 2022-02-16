@@ -24,7 +24,7 @@ Link to the app: https://waveportal-starter-project.x0rswap.repl.co (sorry it ta
 
 <img src="https://cdn.discordapp.com/attachments/942545565663756378/942902241218674758/unknown.png" width="500"/>
 
-Isn't beautiful?  
+Isn't it beautiful?  
 I also wanted to make a probabilistic check for the prime number, but maybe one day too, will probably be hard to design something that cannot be gamed.
 
 ## Solidity x MNIST
