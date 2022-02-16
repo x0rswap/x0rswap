@@ -1,4 +1,4 @@
-👋 Hi, I’m @x0rswap. Looking for solidity contracts. Ping me on twitter: https://twitter.com/xor_swap
+👋 Hi, I’m @x0rswap. Learning solidity atm. Ping me on twitter: https://twitter.com/xor_swap
 
 Here are some small projects that show I know the basics: I know how to write a simple contract, a simple dApp, a simple CI with some tests, ...  
 
@@ -7,25 +7,41 @@ Here are some small projects that show I know the basics: I know how to write a 
 
 https://github.com/x0rswap/may-the-CI-be-with-you
 
-Just a CI that fuze a contract which contains an overflow. Sometimes the CI finds the overflow, sometimes no.  
+Just a CI that fuze a contract that contains an overflow. Sometimes the CI finds the overflow, sometimes no.  
 You can see the last commit failed, but the commit just before was successful, even if only the readme has been changed.  
 Built with foundry.
+
+## I know how to copy paste
+
+https://github.com/x0rswap/I-know-how-to-copy-paste
+
+Copy pasted from https://github.com/buildspace/buildspace-projects/tree/main/Solidity_And_Smart_Contracts/en  
+And modified of course.  
+Just to show I can build a full web3 dApp from scratch by copy pasting code here and there.  
+I guess ideally you'd want an infura API to list all messages instead of storing them directly in the contracts. Maybe one day.
+
+Link to the app: https://waveportal-starter-project.x0rswap.repl.co (sorry it takes 5min to load, replit's fault not mine, and also it's on replit testnet not rinkeby)
+
+<img src="https://cdn.discordapp.com/attachments/942545565663756378/942902241218674758/unknown.png" width="500"/>
+
+Isn't beautiful?  
+I also wanted to make a probabilistic check for the prime number, but maybe one day too, will probably be hard to design something that cannot be gamed.
 
 ## Solidity x MNIST
 
 https://github.com/x0rswap/Solidity-x-MNIST
 
-The goal at first was to build a neural net that allow you to mint an NFT iif it considers it's a picture of "pipe".  
+The goal at first was to build a neural net that allows you to mint an NFT iif it considers it's a picture of "pipe".  
 (People would then build GANs to trick the neural net and mint cool NFTs ^-^)
 
 ![](https://upload.wikimedia.org/wikipedia/en/b/b9/MagrittePipe.jpg)
 
-So I first tried with MNIST, and it's already a nightmare, and would be unsable on mainet anyway.  
-So you can find the jupiter notebook that trains a neural network for MNIST, export it, and then a solidity file which computes a prediction.  
+So I first tried with MNIST, and it's already a nightmare, and would be unusable on mainet anyway.  
+So you can find the jupiter notebook that trains a neural network for MNIST, export it, and then a solidity file that computes a prediction.  
 (The type used is tf.float32, so I wrote also a fixed point library, and I've checked with the notebook I get almost the same result).
 
-`forge test` takes 10min to compile the file. Too much line. I couldn't export the full model, so only exported the important parts.  
-(With less parts it can take like 1min but the accuracy is really ridiculous)
+`forge test` takes 10min to compile the file. I couldn't export the full model (takes too long & `solc error`), so only exported the important parts.  
+(With fewer parts it can take like 1min but the accuracy is really ridiculous)
 
 Accuracy of the model: 60% 😂
 
