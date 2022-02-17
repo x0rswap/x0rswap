@@ -52,11 +52,12 @@ Anyway, this project could be improved a lot, but won't ever be usable on mainet
 
 ## Prove you are good trader with NFTs
 
-I used this https://github.com/lightcycleresearch/foundry-getcode/blob/master/try-v1/src/test/Contract.t.sol
+https://github.com/x0rswap/Are-you-really-a-good-trader
 
-Root your uniswap trades through this contract to mint an exclusive non-transferable NFT that remembers, forever, at what price you bought.
-
+Root your uniswap trades through this contract to mint an exclusive non-transferable NFT that remembers, forever, at what price you bought.  
 If you are a good trader, just leave the proof on chain :) inspired by https://twitter.com/ercwl/status/1467560841742635009
+
+I used this https://github.com/lightcycleresearch/foundry-getcode/blob/master/try-v1/src/test/Contract.t.sol
 
 ## The end
 
