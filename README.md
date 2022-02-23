@@ -59,6 +59,16 @@ If you are a good trader, just leave the proof on chain :) inspired by https://t
 
 I used this https://github.com/lightcycleresearch/foundry-getcode/blob/master/try-v1/src/test/Contract.t.sol
 
+## The MEV will claim it
+
+https://github.com/x0rswap/Its-safe-the-MEV-will-claim-it
+
+If you almost-never update a storage value, then just makes it an immutable value, read from it, and redeploy the contract each time you need to change it.
+
+If you give away eth if it turns out the immutable isn't the storage, then someone will each time claim the bounty, right?
+
+<img src="https://github.com/x0rswap/Its-safe-the-MEV-will-claim-it/blob/main/mem.jpg" width="500"/>
+
 ## The end
 
 
